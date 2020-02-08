@@ -1,0 +1,64 @@
+{
+  "name": "sluy/laravel-translation",
+  "description": "Manage your translation in the correct way with Laravel. Export and import to another formats, do things in most used frontend Frameworks and more!.",
+  "keywords": [
+    "locale",
+    "i18n",
+    "internationalization",
+    "translation",
+    "laravel",
+    "database",
+    "db",
+    "js",
+    "json",
+    "javascript",
+    "vue",
+    "export",
+    "import"
+  ],
+  "homepage": "https://github.com/sluy/laravel-translations",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Stefan Luy",
+      "email": "sluy1283@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "illuminate/support": "5.8.*|^6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "3.8.*",
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sluy\\LaravelTranslation\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sluy\\LaravelTranslation\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sluy\\LaravelTranslation\\LaravelTranslationServiceProvider"
+      ],
+      "aliases": {
+        "LaravelTranslation": "Sluy\\LaravelTranslation\\LaravelTranslationFacade"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'import_translations' => 'Importar Traducciones',
+    'locales' => 'Idiomas',
+    'class' => 'Clase',
+    'location' => 'Ubicación',
+    'configuration' => 'Configuración',
+    'available_drivers' => 'Conectores Habilitados',
+    'no_translations' => 'No se encontraron traducciones',
+    'import' => 'Importar',
+    'clear' => 'Limpiar',
+    'cancel' => 'Cancelar',
+    'source' => 'Fuente',
+    'select_an_option' => 'Seleccione una Opción',
+    'import_from' => 'Importar Desde',
+    'upload' => 'Subir Archivo',
+    'download' => 'Descargar',
+    'file_to_upload' => 'Archivo a Subir',
+    'another_driver' => 'Otro Conector',
+    'filesystem' => 'Sistema de Archivos',
+    'translations_saved' => ':count traduccion(es) guardadas exitosamente.',
+    'translations_destroyed' => ':count tranduccion(es) eliminadas exitosamente.',
+    'zero_changes' => 'No hay cambios por realizar. Ignorando la petición.',
+    'no_drivers_found' => 'No se encontraron conectores. Por favor recuerde habilitarlos en el archivo de configuración <code>config/laravel-translation.php</code>',
+    'git_section_help' => 'Para mas información visite <a href="https://github.com/sluy/laravel-translation#:node" target="_blank">la section :section</a>',
+];
